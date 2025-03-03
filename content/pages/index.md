@@ -240,11 +240,12 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: This is a subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: >
+      **¿Buscas una empresa de limpieza para dejar de lidiar en el día a día con
+      todas las tareas de la casa?** En Interdomicilio te ofrecemos un gran
+      abanico de soluciones en cuestiones del hogar. Encuentra el servicio que
+      estabas buscando para l**a limpieza de tu casa o piso, con la flexibilidad
+      y calidad** y el respaldo de una gran empresa.
     badge:
       label: Key Benefits
       color: text-primary
