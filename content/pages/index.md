@@ -348,8 +348,16 @@ sections:
       En ocasiones, necesitamos el apoyo de un completo equipo de profesionales
       que nos ayuden a realizar una limpieza general del hogar.
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Si deseas una limpieza a fondo de la cocina, si prefieres los baños o si
+      te gustaría una limpieza a fondo del hogar si te mudas, cuentas con
+      propiedades en alquiler, deseas realizar una limpieza de fin de obra o una
+      limpieza de pisos vacíos, Interdomicilio tiene tu solución.
+
+
+      ¡Llámanos ya! Cuéntanos cuáles son tus objetivos y elaboraremos un
+      **presupuesto sin compromiso.** Un equipo de limpieza especializado se
+      trasladará a tu domicilio para realizar un **trabajo ágil y eficaz,** con
+      las herramientas de limpieza necesarias si así lo deseas.
     actions:
       - type: Button
         label: Get started
