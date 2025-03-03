@@ -77,9 +77,11 @@ sections:
     subtitle: >-
       En Katas Crystal te ofrecemos un gran abanico de soluciones en cuestiones
       del hogar.
-    text: >
-      Encuentra el servicio que estabas buscando para **la limpieza de tu casa o
-      piso, con la flexibilidad y calidad** y el respaldo de una gran empresa.
+    text: >+
+      <div style="text-align: center">Encuentra el servicio que estabas buscando
+      para **la limpieza de tu casa o piso, con la flexibilidad y calidad** y el
+      respaldo de una gran empresa.</div>
+
     colors: bg-light-fg-dark
     styles:
       self:
