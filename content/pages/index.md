@@ -192,7 +192,7 @@ sections:
       trámites de contratos, convenios y altas en seguridad social también
       podemos hacerlo. KatasCristal lo encarga todo.
     actions:
-      - label: Get started
+      - label: Contactanos
         url: /
         icon: arrowRight
         iconPosition: right
