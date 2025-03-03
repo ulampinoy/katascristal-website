@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: ¿Quiénes somos KatasCristal?
+      text: Bienvenidos a KatasCristal
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
