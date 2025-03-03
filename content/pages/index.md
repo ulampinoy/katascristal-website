@@ -298,7 +298,9 @@ sections:
       text: Empleadas del hogar
       color: text-dark
       type: TitleBlock
-    subtitle: Be in good company
+    subtitle: >-
+      Si estás buscando una empleada de hogar ya sea interna oexterna en
+      Interdomicilio podemos ofrecerte la solución.
     text: >
       A service that provides advice and guidance to startups and small
       businesses.
