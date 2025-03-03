@@ -344,7 +344,9 @@ sections:
       type: TitleBlock
       text: Limpieza generales
       color: text-dark
-    subtitle: Increase your reach
+    subtitle: >-
+      En ocasiones, necesitamos el apoyo de un completo equipo de profesionales
+      que nos ayuden a realizar una limpieza general del hogar.
     text: >
       A service that helps businesses to manage their social media accounts and
       posts.
