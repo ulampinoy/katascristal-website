@@ -567,7 +567,7 @@ sections:
       Mensual, trimestral, o cada tal x tiempo...
     actions:
       - type: Button
-        label: Get started
+        label: Contactanos
         url: /
         icon: arrowRight
         iconPosition: right
