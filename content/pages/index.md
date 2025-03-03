@@ -441,8 +441,9 @@ sections:
       La limpieza de cristales es una de las tareas más tediosas y más costosas
       de realizar, llegando en ocasiones, a necesitar la mano de profesionales
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Katas Crystal contamos con **expertos en limpieza de cristales** que te
+      ayudarán a lidiar con el trabajo y disfrutar de tu tiempo libre como te
+      mereces.
     actions:
       - type: Button
         label: Get started
