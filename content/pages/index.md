@@ -17,7 +17,7 @@ sections:
       día de hoy, siempre nos hemos caracterizado por ofrecer un alto nivel de
       calidad en todos nuestros trabajos.
     actions:
-      - label: Get started
+      - label: Contactanos
         altText: ''
         url: /
         showIcon: false
