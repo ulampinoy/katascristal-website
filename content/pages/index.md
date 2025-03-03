@@ -401,8 +401,10 @@ sections:
       color: text-dark
     subtitle: Ofrecemos servicio de limpieza tras realizar una reforma entu casa o piso.
     text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      Puedes contar con Katas Crystal para limpiar una vivienda tras realizar
+      una obra en casa. Cada limpieza tras una reforma cubre necesidades
+      específicas, por eso sea cual sea el tipo de reforma que hayas realizado,
+      puedes contar con nosotros.
     actions:
       - type: Button
         label: Get started
