@@ -296,10 +296,6 @@ sections:
       url: /images/hero2.svg
       altText: Fun feature preview
       type: ImageBlock
-    badge:
-      label: This is a badge
-      color: text-primary
-      type: Badge
     colors: bg-light-fg-dark
     styles:
       self:
