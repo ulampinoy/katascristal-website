@@ -488,8 +488,14 @@ sections:
       color: text-dark
     subtitle: Es importante preservar la integridad de una comunidad.
     text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      La limpieza es un factor diferencial de la imagen de la vivienda dado que
+      es lo que se proyecta tanto a los residentes como a las personas que la
+      visitan.
+
+
+      Katas Crystal esta dispuesto a dar un **servicio de limpieza de
+      comunidades de calidad** siempre comprometidos con la satisfacción de
+      todas las necesidades de nuestras comunidades.
     actions:
       - type: Button
         label: Get started
