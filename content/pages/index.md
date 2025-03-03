@@ -55,6 +55,16 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+  - title: Divider
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-7
+          - pl-7
+          - pb-7
+          - pr-7
+    type: DividerSection
   - subtitle: Award winning enterprises trust us
     images:
       - url: /images/empathy-logo.svg
@@ -86,16 +96,6 @@ sections:
       subtitle:
         textAlign: center
     type: ImageGallerySection
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
   - title:
       text: >-
         ¿Buscas una empresa de limpieza para dejar de lidiar en el día a día con
