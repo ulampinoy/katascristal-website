@@ -315,7 +315,7 @@ sections:
       mereces.
     actions:
       - type: Button
-        label: Get started
+        label: Contactanos
         url: /
         icon: arrowRight
         iconPosition: right
