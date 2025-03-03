@@ -148,7 +148,7 @@ sections:
       disposición. Nuestros servicios son totalmente flexibles y adaptados a
       cada cliente.
     actions:
-      - label: Get started
+      - label: Contactanos
         url: /
         icon: arrowRight
         iconPosition: right
