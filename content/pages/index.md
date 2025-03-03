@@ -302,8 +302,15 @@ sections:
       Si estás buscando una empleada de hogar ya sea interna oexterna en
       Interdomicilio podemos ofrecerte la solución.
     text: >
-      A service that provides advice and guidance to startups and small
-      businesses.
+      Por un lado contamos con una plantilla profesional de empleadas de hogar y
+      nos adaptamos a las necesidades de cada cliente en cuanto a horarios y
+      tareas a realizar en el hogar. 
+
+
+      Por otro lado si lo que prefieres que te seleccionemos a una empleada
+      doméstica con unas características determinadas y te ayudemos con los
+      trámites de contratos, convenios y altas en seguridad social también
+      podemos hacerlo. KatasCristal lo encarga todo.
     actions:
       - label: Get started
         url: /
