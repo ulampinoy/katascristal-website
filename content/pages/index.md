@@ -246,9 +246,6 @@ sections:
       abanico de soluciones en cuestiones del hogar. Encuentra el servicio que
       estabas buscando para **la limpieza de tu casa o piso, con la flexibilidad
       y calidad** y el respaldo de una gran empresa.
-
-
-      ****
     badge:
       label: Key Benefits
       color: text-primary
