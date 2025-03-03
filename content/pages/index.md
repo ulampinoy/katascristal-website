@@ -554,28 +554,6 @@ sections:
           - pl-3
           - pb-3
           - pr-3
-  - type: GenericSection
-    title:
-      type: TitleBlock
-      text: Generic section with a video
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
-    subtitle: Section with a video subtitle
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions: []
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
   - type: CarouselSection
     title: null
     subtitle: What our customers say about us
