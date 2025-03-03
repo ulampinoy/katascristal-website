@@ -9,9 +9,9 @@ sections:
       type: TitleBlock
     subtitle: ¿Quiénes somos?
     text: >
-      Somos una empresa fundada en 2015 y estamos especializados en trabajos de
-      limpieza de oficinas, restaurantes, locales, hogar cristales, locales,
-      omunidades, edificios. **Nuestros trabajos cuentan con la garantía y el
+      Somos una empresa fundada en 2015 y estamos **especializados en trabajos
+      de limpieza de oficinas, restaurantes, locales, hogar cristales, locales,
+      comunidades, edificios.** Nuestros trabajos cuentan con **la garantía y el
       aval del saber hacer acumulado en 9 años y trabajos realizadas con
       éxito.** Desde nuestros orígenes en la realización de trabajos hasta el
       día de hoy, siempre nos hemos caracterizado por ofrecer un alto nivel de
