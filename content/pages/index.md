@@ -452,7 +452,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/hero2.svg
+      url: /images/istockphoto-1999331287-2048x2048.webp
       altText: Fun feature preview
     colors: bg-light-fg-dark
     styles:
