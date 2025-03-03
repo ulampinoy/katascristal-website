@@ -437,7 +437,9 @@ sections:
       type: TitleBlock
       text: Limpieza de cristales
       color: text-dark
-    subtitle: Increase your reach
+    subtitle: >-
+      La limpieza de cristales es una de las tareas más tediosas y más costosas
+      de realizar, llegando en ocasiones, a necesitar la mano de profesionales
     text: >
       A service that helps businesses to manage their social media accounts and
       posts.
