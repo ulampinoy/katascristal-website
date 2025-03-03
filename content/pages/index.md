@@ -258,7 +258,9 @@ sections:
       text: Servicio doméstico
       color: text-dark
       type: TitleBlock
-    subtitle: Increase your reach
+    subtitle: >-
+      ¡Deja el servicio de tu casa en manos de profesionales y no te la juegues
+      con tu hogar!
     text: >
       A service that helps businesses to manage their social media accounts and
       posts.
