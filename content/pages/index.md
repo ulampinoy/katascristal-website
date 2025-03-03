@@ -240,7 +240,7 @@ sections:
       las herramientas de limpieza necesarias si así lo deseas.
     actions:
       - type: Button
-        label: Get started
+        label: Contactanos
         url: /
         icon: arrowRight
         iconPosition: right
