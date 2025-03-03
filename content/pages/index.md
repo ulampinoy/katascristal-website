@@ -561,8 +561,10 @@ sections:
       color: text-dark
     subtitle: Increase your reach
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Katas Crystal ofrece un servicio de limpieza general de restaurantes
+      (salones, cocinas, campanas, terrazas).
+
+      Mensual, trimestral, o cada tal x tiempo...
     actions:
       - type: Button
         label: Get started
