@@ -65,6 +65,29 @@ sections:
           - pb-7
           - pr-7
     type: DividerSection
+  - title:
+      text: >-
+        ¿Buscas una empresa de limpieza para dejar de lidiar en el día a día con
+        todas las tareas de la casa?
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: >-
+      En Katas Crystal te ofrecemos un gran abanico de soluciones en cuestiones
+      del hogar.
+    text: >
+      Encuentra el servicio que estabas buscando para **la limpieza de tu casa o
+      piso, con la flexibilidad y calidad** y el respaldo de una gran empresa.
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        flexDirection: col
+        justifyContent: center
+      subtitle:
+        textAlign: center
+    type: GenericSection
   - subtitle: Award winning enterprises trust us
     images:
       - url: /images/empathy-logo.svg
@@ -96,29 +119,6 @@ sections:
       subtitle:
         textAlign: center
     type: ImageGallerySection
-  - title:
-      text: >-
-        ¿Buscas una empresa de limpieza para dejar de lidiar en el día a día con
-        todas las tareas de la casa?
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-      type: TitleBlock
-    subtitle: >-
-      En Katas Crystal te ofrecemos un gran abanico de soluciones en cuestiones
-      del hogar.
-    text: >
-      Encuentra el servicio que estabas buscando para **la limpieza de tu casa o
-      piso, con la flexibilidad y calidad** y el respaldo de una gran empresa.
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: col
-        justifyContent: center
-      subtitle:
-        textAlign: center
-    type: GenericSection
   - type: DividerSection
     title: Divider
     elementId: ''
