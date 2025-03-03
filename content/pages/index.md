@@ -241,11 +241,10 @@ sections:
       type: TitleBlock
     subtitle: This is a subtitle
     text: >
-      **¿Buscas una empresa de limpieza para dejar de lidiar en el día a día con
-      todas las tareas de la casa?** En Interdomicilio te ofrecemos un gran
-      abanico de soluciones en cuestiones del hogar. Encuentra el servicio que
-      estabas buscando para **la limpieza de tu casa o piso, con la flexibilidad
-      y calidad** y el respaldo de una gran empresa.
+      En Katas Crystal te ofrecemos un gran abanico de soluciones en cuestiones
+      del hogar. Encuentra el servicio que estabas buscando para **la limpieza
+      de tu casa o piso, con la flexibilidad y calidad** y el respaldo de una
+      gran empresa.
     colors: bg-light-fg-dark
     styles:
       self:
