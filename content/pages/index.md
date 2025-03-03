@@ -320,7 +320,7 @@ sections:
         style: primary
     media:
       type: ImageBlock
-      url: /images/hero3.svg
+      url: /images/istockphoto-2161323690-2048x2048.webp
       altText: Dope design preview
     colors: bg-light-fg-dark
     styles:
