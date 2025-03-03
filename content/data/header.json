@@ -74,7 +74,7 @@
     "secondaryLinks": [
         {
             "label": "Contactanos",
-            "altText": "Sign up",
+            "altText": "",
             "url": "https://app.netlify.com/signup",
             "icon": "arrowRight",
             "iconPosition": "right",
