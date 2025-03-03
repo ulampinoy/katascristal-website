@@ -486,7 +486,7 @@ sections:
       type: TitleBlock
       text: Limpieza de comunidades
       color: text-dark
-    subtitle: Es importante preservar la integridad de unacomunidad.
+    subtitle: Es importante preservar la integridad de una comunidad.
     text: >
       A service that provides advice and guidance to startups and small
       businesses.
