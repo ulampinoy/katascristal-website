@@ -262,8 +262,11 @@ sections:
       ¡Deja el servicio de tu casa en manos de profesionales y no te la juegues
       con tu hogar!
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      KatasCristal puede ofrecerte la opción de servicio doméstico que más se
+      adapta a tus necesidades y a las de tu familia,y además cuentan con su
+      propia plantilla de personal doméstico profesional para ponerlo a tu
+      disposición. Nuestros servicios son totalmente flexibles y adaptados a
+      cada cliente.
     actions:
       - label: Get started
         url: /
