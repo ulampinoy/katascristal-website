@@ -484,7 +484,7 @@ sections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: Business Consulting
+      text: Limpieza de comunidades
       color: text-dark
     subtitle: Be in good company
     text: >
