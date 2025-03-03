@@ -399,7 +399,7 @@ sections:
       type: TitleBlock
       text: Limpieza fin de obra
       color: text-dark
-    subtitle: Be in good company
+    subtitle: Ofrecemos servicio de limpieza tras realizar una reforma entu casa o piso.
     text: >
       A service that provides advice and guidance to startups and small
       businesses.
