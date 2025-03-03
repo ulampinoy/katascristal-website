@@ -233,7 +233,9 @@ sections:
           - pr-7
     type: DividerSection
   - title:
-      text: Grow your business 10x faster
+      text: >-
+        ¿Buscas una empresa de limpieza para dejar de lidiar en el día a día con
+        todas las tareas de la casa?
       color: text-dark
       styles:
         self:
