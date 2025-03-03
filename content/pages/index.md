@@ -435,7 +435,7 @@ sections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: Social Media Management
+      text: Limpieza de cristales
       color: text-dark
     subtitle: Increase your reach
     text: >
