@@ -356,7 +356,7 @@ sections:
       todas las necesidades de nuestras comunidades.
     actions:
       - type: Button
-        label: Get started
+        label: Contactanos
         url: /
         icon: arrowRight
         iconPosition: right
