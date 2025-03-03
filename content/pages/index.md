@@ -9,9 +9,13 @@ sections:
       type: TitleBlock
     subtitle: ¿Quiénes somos?
     text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+      Somos una empresa fundada en 2015 y estamos especializados en trabajos de
+      limpieza de oficinas, restaurantes, locales, hogar cristales, locales,
+      omunidades, edificios. **Nuestros trabajos cuentan con la garantía y el
+      aval del saber hacer acumulado en 9 años y trabajos realizadas con
+      éxito.** Desde nuestros orígenes en la realización de trabajos hasta el
+      día de hoy, siempre nos hemos caracterizado por ofrecer un alto nivel de
+      calidad en todos nuestros trabajos.
     actions:
       - label: Get started
         altText: ''
