@@ -66,7 +66,7 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: >-
-      En Katas Crystal te ofrecemos un gran abanico de soluciones en cuestiones
+      En Katas Cristal te ofrecemos un gran abanico de soluciones en cuestiones
       del hogar.
     text: >+
       <div style="text-align: center">Encuentra el servicio que estabas buscando
@@ -270,7 +270,7 @@ sections:
       color: text-dark
     subtitle: Ofrecemos servicio de limpieza tras realizar una reforma entu casa o piso.
     text: >
-      Puedes contar con Katas Crystal **para limpiar una vivienda tras realizar
+      Puedes contar con Katas Cristal **para limpiar una vivienda tras realizar
       una obra en casa.** Cada limpieza tras una reforma cubre necesidades
       específicas, por eso sea cual sea el tipo de reforma que hayas realizado,
       puedes contar con nosotros.
@@ -310,7 +310,7 @@ sections:
       La limpieza de cristales es una de las tareas más tediosas y más costosas
       de realizar, llegando en ocasiones, a necesitar la mano de profesionales
     text: >
-      Katas Crystal contamos con **expertos en limpieza de cristales** que te
+      Katas Cristal contamos con **expertos en limpieza de cristales** que te
       ayudarán a lidiar con el trabajo y disfrutar de tu tiempo libre como te
       mereces.
     actions:
@@ -351,7 +351,7 @@ sections:
       visitan.
 
 
-      Katas Crystal esta dispuesto a dar un **servicio de limpieza de
+      Katas Cristal esta dispuesto a dar un **servicio de limpieza de
       comunidades de calidad** siempre comprometidos con la satisfacción de
       todas las necesidades de nuestras comunidades.
     actions:
@@ -386,7 +386,7 @@ sections:
       type: TitleBlock
       text: Restaurantes
       color: text-dark
-    subtitle: Katas Crystal ofrece un servicio de limpieza general de restaurantes
+    subtitle: Katas Cristal ofrece un servicio de limpieza general de restaurantes
     text: >
       Servicio de limpieza general de restaurantes (salones, cocinas, campanas,
       terrazas).
