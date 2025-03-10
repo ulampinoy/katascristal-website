@@ -359,7 +359,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/istockphoto-1999331287-2048x2048.webp
+      url: /images/ogrelo-01.jpeg
       altText: Fun feature preview
     colors: bg-light-fg-dark
     styles:
