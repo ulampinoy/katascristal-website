@@ -13,7 +13,7 @@
         },
         {
             "altText": "Twitter link",
-            "url": "https://twitter.com/netlify",
+            "url": "/",
             "icon": "youtube",
             "type": "Social"
         },
