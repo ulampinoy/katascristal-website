@@ -280,7 +280,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/istockphoto-162353089-2048x2048.webp
+      url: /images/julius-01.jpeg
       altText: Fun feature preview
     colors: bg-light-fg-dark
     styles:
