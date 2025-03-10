@@ -27,7 +27,7 @@ sections:
         elementId: ''
         type: Button
     media:
-      url: /images/WhatsApp Image 2025-03-08 at 20.58.54 (1).jpeg
+      url: /images/vangie-01.jpeg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
