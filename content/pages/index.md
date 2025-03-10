@@ -205,7 +205,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/istockphoto-2164734995-2048x2048.webp
+      url: /images/vangie-02.jpeg
       altText: Fun feature preview
     colors: bg-light-fg-dark
     styles:
