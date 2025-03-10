@@ -4,37 +4,6 @@
         "type": "ImageBlock"
     },
     "text": "### KatasCristal\n\nSomos una empresa fundada en 2015 y estamos **especializados en trabajos de limpieza de oficinas, restaurantes, locales, hogar cristales, locales, comunidades, edificios.**\n",
-    "primaryLinks": {
-        "title": "Product",
-        "links": [
-            {
-                "label": "Features",
-                "altText": "Features page",
-                "url": "/",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            },
-            {
-                "label": "Pricing",
-                "url": "/pricing",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            },
-            {
-                "label": "Documentation",
-                "url": "/",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
-            }
-        ],
-        "type": "FooterLinksGroup"
-    },
     "secondaryLinks": {
         "title": "Company",
         "links": [
