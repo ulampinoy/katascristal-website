@@ -27,7 +27,7 @@ sections:
         elementId: ''
         type: Button
     media:
-      url: /images/istockphoto-1436184020-2048x2048.webp
+      url: /images/vangie-01.jpeg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
@@ -205,7 +205,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/istockphoto-2164734995-2048x2048.webp
+      url: /images/vangie-02.jpeg
       altText: Fun feature preview
     colors: bg-light-fg-dark
     styles:
@@ -280,7 +280,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/istockphoto-162353089-2048x2048.webp
+      url: /images/julius-01.jpeg
       altText: Fun feature preview
     colors: bg-light-fg-dark
     styles:
@@ -359,7 +359,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/istockphoto-1999331287-2048x2048.webp
+      url: /images/ogrelo-01.jpeg
       altText: Fun feature preview
     colors: bg-light-fg-dark
     styles:
