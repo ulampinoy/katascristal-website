@@ -137,8 +137,8 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: >-
-      Si estás buscando una empleada de hogar ya sea interna o externa en Katas
-      Cristal podemos ofrecerte la solución.
+      Si estás buscando una empleada de hogar ya sea interna o externa en
+      KatasCristal podemos ofrecerte la solución.
     text: >
       Por un lado contamos con una plantilla profesional de empleadas de hogar y
       nos adaptamos a las necesidades de cada cliente en cuanto a horarios y
