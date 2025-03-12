@@ -309,7 +309,7 @@ sections:
       visitan.
 
 
-      Katas Crystal esta dispuesto a dar un **servicio de limpieza de
+      Katas Cristal esta dispuesto a dar un **servicio de limpieza de
       comunidades de calidad** siempre comprometidos con la satisfacción de
       todas las necesidades de nuestras comunidades.
     actions:
