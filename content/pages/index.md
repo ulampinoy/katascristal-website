@@ -157,7 +157,7 @@ sections:
         style: secondary
         type: Button
     media:
-      url: /images/hero.svg
+      url: /images/vangie-03.jpeg
       altText: Dope design preview
       type: ImageBlock
     colors: bg-light-fg-dark
