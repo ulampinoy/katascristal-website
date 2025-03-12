@@ -19,7 +19,7 @@ sections:
     actions:
       - label: Contactanos
         altText: ''
-        url: /
+        url: 'https://wa.me/34611311905'
         showIcon: false
         icon: arrowRight
         iconPosition: right
