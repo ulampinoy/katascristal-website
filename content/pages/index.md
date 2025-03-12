@@ -19,7 +19,7 @@ sections:
     actions:
       - label: Contactanos
         altText: ''
-        url: /
+        url: 'https://wa.me/34611311905'
         showIcon: false
         icon: arrowRight
         iconPosition: right
@@ -66,7 +66,7 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: >-
-      En Katas Cristal te ofrecemos un gran abanico de soluciones en cuestiones
+      En KatasCristal te ofrecemos un gran abanico de soluciones en cuestiones
       del hogar.
     text: >+
       <div style="text-align: center">Encuentra el servicio que estabas buscando
@@ -107,7 +107,7 @@ sections:
       cada cliente.
     actions:
       - label: Contactanos
-        url: /
+        url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
         style: secondary
@@ -151,7 +151,7 @@ sections:
       podemos hacerlo. KatasCristal lo encarga todo.
     actions:
       - label: Contactanos
-        url: /
+        url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
         style: secondary
@@ -199,7 +199,7 @@ sections:
     actions:
       - type: Button
         label: Contactanos
-        url: /
+        url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
         style: secondary
@@ -228,14 +228,14 @@ sections:
       color: text-dark
     subtitle: Ofrecemos servicio de limpieza tras realizar una reforma entu casa o piso.
     text: >
-      Puedes contar con Katas Cristal **para limpiar una vivienda tras realizar
+      Puedes contar con KatasCristal **para limpiar una vivienda tras realizar
       una obra en casa.** Cada limpieza tras una reforma cubre necesidades
       específicas, por eso sea cual sea el tipo de reforma que hayas realizado,
       puedes contar con nosotros.
     actions:
       - type: Button
         label: Contactanos
-        url: /
+        url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
         style: secondary
@@ -268,13 +268,13 @@ sections:
       La limpieza de cristales es una de las tareas más tediosas y más costosas
       de realizar, llegando en ocasiones, a necesitar la mano de profesionales
     text: >
-      Katas Cristal contamos con **expertos en limpieza de cristales** que te
+      KatasCristal contamos con **expertos en limpieza de cristales** que te
       ayudarán a lidiar con el trabajo y disfrutar de tu tiempo libre como te
       mereces.
     actions:
       - type: Button
         label: Contactanos
-        url: /
+        url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
         style: secondary
@@ -315,7 +315,7 @@ sections:
     actions:
       - type: Button
         label: Contactanos
-        url: /
+        url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
         style: secondary
@@ -344,7 +344,7 @@ sections:
       type: TitleBlock
       text: Restaurantes
       color: text-dark
-    subtitle: Katas Cristal ofrece un servicio de limpieza general de restaurantes
+    subtitle: KatasCristal ofrece un servicio de limpieza general de restaurantes
     text: >
       Servicio de limpieza general de restaurantes (salones, cocinas, campanas,
       terrazas).
@@ -353,7 +353,7 @@ sections:
     actions:
       - type: Button
         label: Contactanos
-        url: /
+        url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
         style: secondary
