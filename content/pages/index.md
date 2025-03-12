@@ -66,7 +66,7 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: >-
-      En Katas Cristal te ofrecemos un gran abanico de soluciones en cuestiones
+      En KatasCristal te ofrecemos un gran abanico de soluciones en cuestiones
       del hogar.
     text: >+
       <div style="text-align: center">Encuentra el servicio que estabas buscando
