@@ -344,7 +344,7 @@ sections:
       type: TitleBlock
       text: Restaurantes
       color: text-dark
-    subtitle: Katas Crystal ofrece un servicio de limpieza general de restaurantes
+    subtitle: KatasCristal ofrece un servicio de limpieza general de restaurantes
     text: >
       Servicio de limpieza general de restaurantes (salones, cocinas, campanas,
       terrazas).
