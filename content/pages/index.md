@@ -151,7 +151,7 @@ sections:
       podemos hacerlo. KatasCristal lo encarga todo.
     actions:
       - label: Contactanos
-        url: /
+        url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
         style: secondary
