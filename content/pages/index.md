@@ -157,7 +157,7 @@ sections:
         style: secondary
         type: Button
     media:
-      url: /images/istockphoto-1364417820-2048x2048.webp
+      url: /images/vangie-03.jpeg
       altText: Dope design preview
       type: ImageBlock
     colors: bg-light-fg-dark
