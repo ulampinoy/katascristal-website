@@ -268,7 +268,7 @@ sections:
       La limpieza de cristales es una de las tareas más tediosas y más costosas
       de realizar, llegando en ocasiones, a necesitar la mano de profesionales
     text: >
-      Katas Crystal contamos con **expertos en limpieza de cristales** que te
+      KatasCristal contamos con **expertos en limpieza de cristales** que te
       ayudarán a lidiar con el trabajo y disfrutar de tu tiempo libre como te
       mereces.
     actions:
