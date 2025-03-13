@@ -42,10 +42,12 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
+          - pt-12
+          - pl-4
+          - pb-2
+          - pr-4
+          - lg:pt-0
+          - lg:pb-4
   - title: Divider
     colors: bg-light-fg-dark
     styles:
