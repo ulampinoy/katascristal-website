@@ -321,7 +321,7 @@ sections:
         style: secondary
     media:
       type: ImageBlock
-      url: /images/istockphoto-513586374-2048x2048.webp
+      url: /images/vangie-04.jpeg
       altText: Dope design preview
     colors: bg-light-fg-dark
     styles:
