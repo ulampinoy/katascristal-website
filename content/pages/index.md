@@ -366,13 +366,6 @@ sections:
       self:
         alignItems: center
   - type: FeaturedItemsSection
-    title:
-      type: TitleBlock
-      text: Items on sale
-      color: text-dark
-      styles:
-        self:
-          textAlign: left
     items:
       - type: FeaturedItem
         title: Faux Fur Throw
