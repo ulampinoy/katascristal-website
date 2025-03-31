@@ -372,7 +372,7 @@ sections:
         subtitle: $ 88 – $ 176
         image:
           type: ImageBlock
-          url: /images/img-placeholder.svg
+          url: /images/ogrelo-02.jpeg
           altText: Faux Fur Throw
           elementId: ''
           styles:
