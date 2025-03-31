@@ -380,7 +380,7 @@ sections:
           explicabo.
         image:
           type: ImageBlock
-          url: /images/person-placeholder-light.png
+          url: /images/ogrelo-02.jpeg
           altText: Maria Walters
           styles:
             self:
