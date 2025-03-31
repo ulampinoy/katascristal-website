@@ -373,7 +373,7 @@ sections:
         altText: Empathy logo
         elementId: ''
       - type: ImageBlock
-        url: /images/wellster-logo.svg
+        url: /images/ogrelo-03.jpeg
         altText: Wellster logo
         elementId: ''
       - type: ImageBlock
