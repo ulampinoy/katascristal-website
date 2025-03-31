@@ -53,9 +53,9 @@ sections:
     styles:
       self:
         padding:
-          - pt-7
+          - pt-4
           - pl-7
-          - pb-7
+          - pb-4
           - pr-7
     type: DividerSection
   - title:
@@ -218,9 +218,9 @@ sections:
     styles:
       self:
         padding:
-          - pt-7
+          - pt-4
           - pl-7
-          - pb-7
+          - pb-4
           - pr-7
     type: DividerSection
   - type: GenericSection
@@ -413,10 +413,10 @@ sections:
     styles:
       self:
         padding:
-          - pt-16
-          - pl-8
+          - pt-0
+          - pl-4
           - pb-8
-          - pr-8
+          - pr-4
         justifyContent: flex-start
       subtitle:
         textAlign: center
