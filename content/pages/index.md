@@ -393,7 +393,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: ''
-        subtitle: $117
+        subtitle: ''
         image:
           type: ImageBlock
           url: /images/ogrelo-03.jpeg
