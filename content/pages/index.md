@@ -368,7 +368,7 @@ sections:
   - type: FeaturedItemsSection
     items:
       - type: FeaturedItem
-        title: Faux Fur Throw
+        title: ''
         subtitle: ''
         image:
           type: ImageBlock
