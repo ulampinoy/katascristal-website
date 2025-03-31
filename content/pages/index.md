@@ -366,7 +366,7 @@ sections:
       self:
         alignItems: center
   - type: ImageGallerySection
-    subtitle: Our customers
+    subtitle: ''
     images:
       - type: ImageBlock
         url: /images/ogrelo-02.jpeg
