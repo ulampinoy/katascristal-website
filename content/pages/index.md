@@ -113,7 +113,7 @@ sections:
         style: secondary
         type: Button
     media:
-      url: /images/istockphoto-1633477423-2048x2048.webp
+      url: /images/vangie-06.jpeg
       altText: Fun feature preview
       type: ImageBlock
     colors: bg-light-fg-dark
