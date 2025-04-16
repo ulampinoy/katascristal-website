@@ -274,18 +274,6 @@ sections:
             borderRadius: none
             flexDirection: col
             justifyContent: center
-      - type: FeaturedItem
-        title: ''
-        subtitle: ''
-        image:
-          type: ImageBlock
-          altText: Chunky Cotton Knit Throw
-          elementId: ''
-          styles:
-            self:
-              borderRadius: medium
-        actions: []
-        colors: bg-light-fg-dark
     actions: []
     elementId: ''
     variant: two-col-grid
