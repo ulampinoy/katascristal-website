@@ -463,5 +463,6 @@ seo:
   metaDescription: Sitio oficila de KatasCristal – Empresa de limpiezas e
   socialImage: /images/main-hero.jpg
   type: Seo
+  addTitleSuffix: true
 type: PageLayout
 ---
