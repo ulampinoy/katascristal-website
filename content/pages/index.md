@@ -279,7 +279,7 @@ sections:
         subtitle: ''
         image:
           type: ImageBlock
-          url: /images/ogrelo-03.jpeg
+          url: /images/julius-03.jpeg
           altText: Chunky Cotton Knit Throw
           elementId: ''
           styles:
