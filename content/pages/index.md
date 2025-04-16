@@ -459,7 +459,7 @@ sections:
       subtitle:
         textAlign: center
 seo:
-  metaTitle: Home - Demo site
+  metaTitle: Home - KatasCristal
   metaDescription: >-
     Sitio oficila de KatasCristal – Empresa de limpiezas especializadas en
     oficinas, hogar, restaurantes, locales y comunidades.
