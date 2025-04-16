@@ -460,7 +460,9 @@ sections:
         textAlign: center
 seo:
   metaTitle: Home - Demo site
-  metaDescription: Sitio oficila de KatasCristal – Empresa de limpiezas e
+  metaDescription: >-
+    Sitio oficila de KatasCristal – Empresa de limpiezas especializadas en
+    oficinas, hogar, restaurantes, locales y comunidades.
   socialImage: /images/vangie-01.jpeg
   type: Seo
   addTitleSuffix: true
