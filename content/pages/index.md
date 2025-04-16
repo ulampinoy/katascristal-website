@@ -10,6 +10,7 @@ sections:
       styles:
         self:
           fontWeight: 700
+          textAlign: left
     subtitle: ¿Quiénes somos?
     text: >
       Somos una empresa fundada en 2015 y estamos **especializados en trabajos
