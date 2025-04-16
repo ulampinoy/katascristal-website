@@ -255,7 +255,7 @@ sections:
         subtitle: ''
         image:
           type: ImageBlock
-          url: /images/julius-02.jpeg
+          url: /images/julius-04.jpg
           altText: Faux Fur Throw
           elementId: ''
           styles:
