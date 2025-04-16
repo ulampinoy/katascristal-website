@@ -466,5 +466,7 @@ seo:
   socialImage: /images/vangie-01.jpeg
   type: Seo
   addTitleSuffix: true
+  metaTags:
+    - type: MetaTag
 type: PageLayout
 ---
