@@ -42,20 +42,18 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-12
-          - pl-4
-          - pb-2
-          - pr-4
-          - lg:pt-0
-          - lg:pb-4
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
   - title: Divider
     colors: bg-light-fg-dark
     styles:
       self:
         padding:
-          - pt-4
+          - pt-7
           - pl-7
-          - pb-4
+          - pb-7
           - pr-7
     type: DividerSection
   - title:
@@ -218,9 +216,9 @@ sections:
     styles:
       self:
         padding:
-          - pt-4
+          - pt-7
           - pl-7
-          - pb-4
+          - pb-7
           - pr-7
     type: DividerSection
   - type: GenericSection
@@ -250,6 +248,46 @@ sections:
       self:
         alignItems: center
         flexDirection: row-reverse
+  - type: FeaturedItemsSection
+    items:
+      - type: FeaturedItem
+        title: ''
+        subtitle: ''
+        image:
+          type: ImageBlock
+          url: /images/julius-04.jpg
+          altText: Faux Fur Throw
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-0
+              - pl-0
+              - pb-0
+              - pr-0
+            textAlign: left
+            borderRadius: none
+            flexDirection: col
+            justifyContent: center
+    actions: []
+    elementId: ''
+    variant: big-list
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-0
+          - pl-8
+          - pb-8
+          - pr-8
+        justifyContent: flex-start
+      subtitle:
+        textAlign: center
   - type: DividerSection
     title: Divider
     elementId: ''
@@ -413,10 +451,10 @@ sections:
     styles:
       self:
         padding:
-          - pt-0
-          - pl-4
+          - pt-16
+          - pl-8
           - pb-8
-          - pr-4
+          - pr-8
         justifyContent: flex-start
       subtitle:
         textAlign: center
