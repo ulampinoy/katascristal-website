@@ -470,6 +470,6 @@ seo:
   metaTags:
     - type: MetaTag
       property: 'og:url'
-      content: KatasCristal
+      content: 'https://katascristal.com/'
 type: PageLayout
 ---
