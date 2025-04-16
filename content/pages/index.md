@@ -81,7 +81,7 @@ sections:
     styles:
       self:
         flexDirection: col
-        justifyContent: flex-start
+        justifyContent: center
       subtitle:
         textAlign: center
     type: GenericSection
