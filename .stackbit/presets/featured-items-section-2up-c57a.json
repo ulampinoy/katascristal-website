@@ -1,0 +1,107 @@
+{
+    "model": "FeaturedItemsSection",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "2up",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Images"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": null,
+                "subtitle": null,
+                "items": [
+                    {
+                        "$$type": "FeaturedItem",
+                        "title": "",
+                        "tagline": null,
+                        "subtitle": "",
+                        "text": null,
+                        "image": {
+                            "$$type": "ImageBlock",
+                            "url": {
+                                "$$ref": "stackbit_asset_id:static:public/images/ogrelo-02.jpeg",
+                                "$$type": "__asset_model"
+                            },
+                            "altText": "Faux Fur Throw",
+                            "elementId": "",
+                            "styles": {
+                                "self": {
+                                    "borderRadius": "medium"
+                                }
+                            }
+                        },
+                        "actions": [],
+                        "elementId": null,
+                        "colors": "bg-light-fg-dark",
+                        "styles": {
+                            "self": {
+                                "padding": [
+                                    "pt-0",
+                                    "pl-0",
+                                    "pb-0",
+                                    "pr-0"
+                                ],
+                                "textAlign": "left",
+                                "borderRadius": "none",
+                                "flexDirection": "col",
+                                "justifyContent": "center"
+                            }
+                        }
+                    },
+                    {
+                        "$$type": "FeaturedItem",
+                        "title": "",
+                        "tagline": null,
+                        "subtitle": "",
+                        "text": null,
+                        "image": {
+                            "$$type": "ImageBlock",
+                            "url": {
+                                "$$ref": "stackbit_asset_id:static:public/images/ogrelo-03.jpeg",
+                                "$$type": "__asset_model"
+                            },
+                            "altText": "Chunky Cotton Knit Throw",
+                            "elementId": "",
+                            "styles": {
+                                "self": {
+                                    "borderRadius": "medium"
+                                }
+                            }
+                        },
+                        "actions": [],
+                        "elementId": null,
+                        "colors": "bg-light-fg-dark",
+                        "styles": null
+                    }
+                ],
+                "actions": [],
+                "badge": null,
+                "elementId": "",
+                "variant": "two-col-grid",
+                "colors": "bg-light-fg-dark",
+                "backgroundImage": null,
+                "styles": {
+                    "self": {
+                        "padding": [
+                            "pt-16",
+                            "pl-8",
+                            "pb-8",
+                            "pr-8"
+                        ],
+                        "justifyContent": "flex-start"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    }
+                }
+            },
+            "thumbnail": "images/featured-items-section-2up-c57a.png"
+        }
+    ]
+}
