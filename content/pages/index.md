@@ -460,7 +460,7 @@ sections:
         textAlign: center
 seo:
   metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
+  metaDescription: Sitio oficila de KatasCristal – Empresa de limpiezas e
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
