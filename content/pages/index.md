@@ -7,6 +7,9 @@ sections:
       text: Bienvenidos a KatasCristal
       color: text-dark
       type: TitleBlock
+      styles:
+        self:
+          fontWeight: 700
     subtitle: ¿Quiénes somos?
     text: >
       Somos una empresa fundada en 2015 y estamos **especializados en trabajos
