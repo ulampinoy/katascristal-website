@@ -469,7 +469,7 @@ seo:
   addTitleSuffix: true
   metaTags:
     - type: MetaTag
-      property: 'og:title'
+      property: 'og:url'
       content: KatasCristal
 type: PageLayout
 ---
