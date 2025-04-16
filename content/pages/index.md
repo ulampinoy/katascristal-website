@@ -461,7 +461,7 @@ sections:
 seo:
   metaTitle: Home - Demo site
   metaDescription: Sitio oficila de KatasCristal – Empresa de limpiezas e
-  socialImage: /images/main-hero.jpg
+  socialImage: /images/vangie-01.jpeg
   type: Seo
   addTitleSuffix: true
 type: PageLayout
