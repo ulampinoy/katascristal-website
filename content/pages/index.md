@@ -248,6 +248,59 @@ sections:
       self:
         alignItems: center
         flexDirection: row-reverse
+  - type: FeaturedItemsSection
+    items:
+      - type: FeaturedItem
+        title: ''
+        subtitle: ''
+        image:
+          type: ImageBlock
+          url: /images/ogrelo-02.jpeg
+          altText: Faux Fur Throw
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-0
+              - pl-0
+              - pb-0
+              - pr-0
+            textAlign: left
+            borderRadius: none
+            flexDirection: col
+            justifyContent: center
+      - type: FeaturedItem
+        title: ''
+        subtitle: ''
+        image:
+          type: ImageBlock
+          url: /images/ogrelo-03.jpeg
+          altText: Chunky Cotton Knit Throw
+          elementId: ''
+          styles:
+            self:
+              borderRadius: medium
+        actions: []
+        colors: bg-light-fg-dark
+    actions: []
+    elementId: ''
+    variant: two-col-grid
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-8
+          - pb-8
+          - pr-8
+        justifyContent: flex-start
+      subtitle:
+        textAlign: center
   - type: DividerSection
     title: Divider
     elementId: ''
