@@ -468,5 +468,6 @@ seo:
   addTitleSuffix: true
   metaTags:
     - type: MetaTag
+      property: 'og:title'
 type: PageLayout
 ---
