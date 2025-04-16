@@ -469,5 +469,6 @@ seo:
   metaTags:
     - type: MetaTag
       property: 'og:title'
+      content: KatasCristal
 type: PageLayout
 ---
