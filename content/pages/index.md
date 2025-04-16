@@ -461,8 +461,9 @@ sections:
 seo:
   metaTitle: Home - KatasCristal
   metaDescription: >-
-    Sitio oficila de KatasCristal – Empresa de limpiezas especializadas en
-    oficinas, hogar, restaurantes, locales y comunidades.
+    Sitio oficila de KatasCristal – Estamos especializados en trabajos de
+    limpieza de oficinas, restaurantes, locales, hogar cristales, locales,
+    comunidades, edificios.
   socialImage: /images/vangie-01.jpeg
   type: Seo
   addTitleSuffix: true
