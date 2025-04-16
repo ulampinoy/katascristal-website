@@ -459,9 +459,16 @@ sections:
       subtitle:
         textAlign: center
 seo:
-  metaTitle: Home - Demo site
-  metaDescription: This demo site is built with Netlify Create.
-  socialImage: /images/main-hero.jpg
+  metaTitle: Home - KatasCristal
+  metaDescription: >-
+    Sitio oficila de KatasCristal – Empresa de limpiezas especializadas en
+    oficinas, hogar, restaurantes, locales y comunidades.
+  socialImage: /images/vangie-01.jpeg
   type: Seo
+  addTitleSuffix: true
+  metaTags:
+    - type: MetaTag
+      property: 'og:title'
+      content: KatasCristal
 type: PageLayout
 ---
