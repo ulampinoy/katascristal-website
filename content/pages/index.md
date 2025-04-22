@@ -471,7 +471,7 @@ seo:
     comunidades, edificios.
   socialImage: /images/vangie-01.jpeg
   type: Seo
-  addTitleSuffix: true
+  addTitleSuffix: false
   metaTags:
     - type: MetaTag
       property: 'og:url'
