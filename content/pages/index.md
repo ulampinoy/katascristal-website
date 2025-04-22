@@ -7,6 +7,10 @@ sections:
       text: Bienvenidos a KatasCristal
       color: text-dark
       type: TitleBlock
+      styles:
+        self:
+          fontWeight: 700
+          textAlign: left
     subtitle: ¿Quiénes somos?
     text: >
       Somos una empresa fundada en 2015 y estamos **especializados en trabajos
@@ -78,6 +82,7 @@ sections:
       self:
         flexDirection: col
         justifyContent: center
+        alignItems: center
       subtitle:
         textAlign: center
     type: GenericSection
@@ -466,10 +471,10 @@ seo:
     comunidades, edificios.
   socialImage: /images/vangie-01.jpeg
   type: Seo
-  addTitleSuffix: true
+  addTitleSuffix: false
   metaTags:
     - type: MetaTag
-      property: 'og:title'
-      content: KatasCristal
+      property: 'og:url'
+      content: 'https://katascristal.com/'
 type: PageLayout
 ---
