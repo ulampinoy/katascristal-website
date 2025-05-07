@@ -46,10 +46,10 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
+          - pt-4
+          - pl-4
+          - pb-4
+          - pr-4
   - title: Divider
     colors: bg-light-fg-dark
     styles:
@@ -467,8 +467,7 @@ seo:
   metaTitle: Home - KatasCristal
   metaDescription: >-
     Sitio oficila de KatasCristal – Estamos especializados en trabajos de
-    limpieza de oficinas, restaurantes, locales, hogar cristales, locales,
-    comunidades, edificios.
+    limpieza de oficinas, restaurantes, locales, hogar cristales, locales, comunidades, edificios.
   socialImage: /images/vangie-01.jpeg
   type: Seo
   addTitleSuffix: false

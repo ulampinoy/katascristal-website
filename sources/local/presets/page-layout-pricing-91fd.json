@@ -178,7 +178,7 @@
                 ],
                 "isDraft": null,
                 "seo": {
-                    "metaTitle": "Pricing - Demo site",
+                    "metaTitle": "Pricing",
                     "metaDescription": "This is the pricing page built with Netlify Create.",
                     "addTitleSuffix": null,
                     "socialImage": "/images/main-hero.jpg",
