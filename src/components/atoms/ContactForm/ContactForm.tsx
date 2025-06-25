@@ -113,15 +113,15 @@ export default function ContactForm({ className, enableAnnotations }: ContactFor
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={handleSubmit}
-                className="space-y-4"
+                className="space-y-6"
                 action="/contact"
                 netlify-honeypot="bot-field"
             >
                 <input type="hidden" name="form-name" value="contact" />
                 <input type="hidden" name="bot-field" />
-                <div className="grid grid-cols-1 gap-4">
-                    <div>
-                        <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="space-y-1">
+                        <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                             Nombre *
                         </label>
                         <input
@@ -131,12 +131,12 @@ export default function ContactForm({ className, enableAnnotations }: ContactFor
                             value={formData.name}
                             onChange={handleChange}
                             required
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
+                            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                         />
                     </div>
 
-                    <div>
-                        <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+                    <div className="space-y-1">
+                        <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
                             Número de teléfono *
                         </label>
                         <input
@@ -146,12 +146,12 @@ export default function ContactForm({ className, enableAnnotations }: ContactFor
                             value={formData.phone}
                             onChange={handleChange}
                             required
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
+                            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                         />
                     </div>
 
-                    <div>
-                        <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                    <div className="md:col-span-2 space-y-1">
+                        <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                             Correo electrónico *
                         </label>
                         <input
@@ -161,15 +161,15 @@ export default function ContactForm({ className, enableAnnotations }: ContactFor
                             value={formData.email}
                             onChange={handleChange}
                             required
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
+                            className="w-full px-4 py-2.5 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                         />
                     </div>
 
-                    <div>
-                        <p className="block text-sm font-medium text-gray-700 mb-2">Servicio de interés *</p>
-                        <div className="space-y-2">
+                    <div className="md:col-span-2 space-y-3">
+                        <p className="block text-base font-medium text-gray-700">Servicio de interés *</p>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             {serviceOptions.map((service) => (
-                                <div key={service} className="flex items-center">
+                                <div key={service} className="flex items-center p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
                                     <input
                                         id={`service-${service}`}
                                         name="services"
@@ -177,10 +177,10 @@ export default function ContactForm({ className, enableAnnotations }: ContactFor
                                         value={service}
                                         checked={formData.services.includes(service)}
                                         onChange={handleCheckboxChange}
-                                        className="h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded"
+                                        className="h-5 w-5 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                                         required={formData.services.length === 0}
                                     />
-                                    <label htmlFor={`service-${service}`} className="ml-2 block text-sm text-gray-700">
+                                    <label htmlFor={`service-${service}`} className="ml-3 block text-sm font-medium text-gray-700 cursor-pointer">
                                         {service}
                                     </label>
                                 </div>
@@ -188,26 +188,26 @@ export default function ContactForm({ className, enableAnnotations }: ContactFor
                         </div>
                     </div>
 
-                    <div>
-                        <label htmlFor="specialRequests" className="block text-sm font-medium text-gray-700 mb-1">
+                    <div className="md:col-span-2 space-y-1">
+                        <label htmlFor="specialRequests" className="block text-sm font-medium text-gray-700">
                             Solicitudes Especiales
                         </label>
                         <textarea
                             id="specialRequests"
                             name="specialRequests"
-                            rows={3}
+                            rows={4}
                             value={formData.specialRequests}
                             onChange={handleChange}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
+                            className="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                             placeholder="Por favor, indícanos cualquier solicitud especial o información adicional que debamos conocer."
                         />
                     </div>
 
-                    <div>
+                    <div className="md:col-span-2 mt-2">
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className="w-full flex justify-center py-3 px-6 border border-transparent rounded-md shadow-lg text-base font-bold text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-70 disabled:cursor-not-allowed transition-colors duration-200 transform hover:scale-[1.02] active:scale-100"
+                            className="w-full md:w-auto md:min-w-[200px] flex justify-center py-3.5 px-8 border border-transparent rounded-lg shadow-lg text-base font-bold text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-70 disabled:cursor-not-allowed transition-all duration-200 transform hover:scale-[1.02] active:scale-100"
                         >
                             {isSubmitting ? (
                                 <>
