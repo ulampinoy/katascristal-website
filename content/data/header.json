@@ -14,13 +14,14 @@
     "primaryLinks": [],
     "secondaryLinks": [
         {
-            "label": "Contactanos",
-            "altText": "",
-            "url": "https://wa.me/34611311905",
-            "icon": "arrowRight",
-            "iconPosition": "right",
+            "label": "✉️ Presupuesto Gratis",
+            "altText": "Solicitar presupuesto de limpieza en Madrid",
+            "url": "#contacto",
+            "showIcon": false,
+            "icon": "envelope",
+            "iconPosition": "left",
             "style": "secondary",
-            "type": "Button"
+            "elementId": "presupuesto-header"
         }
     ],
     "variant": "logo-left-primary-nav-centered",

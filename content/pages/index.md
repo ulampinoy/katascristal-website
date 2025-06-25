@@ -4,31 +4,54 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Bienvenidos a KatasCristal
+      text: 'Limpieza Profesional en Madrid - KatasCristal'
       color: text-dark
       type: TitleBlock
       styles:
         self:
           fontWeight: 700
           textAlign: left
-    subtitle: ¿Quiénes somos?
+    subtitle: 'Empresa de limpieza profesional en Madrid desde 2015'
     text: >
-      Somos una empresa fundada en 2015 y estamos **especializados en trabajos
-      de limpieza de oficinas, restaurantes, locales, hogar cristales, locales,
-      comunidades, edificios.** Nuestros trabajos cuentan con **la garantía y el
-      aval del saber hacer acumulado en 9 años y trabajos realizadas con
-      éxito.** Desde nuestros orígenes en la realización de trabajos hasta el
-      día de hoy, siempre nos hemos caracterizado por ofrecer un alto nivel de
-      calidad en todos nuestros trabajos.
+      **KatasCristal** es su empresa de confianza para servicios de limpieza profesional en Madrid. Con más de 9 años de experiencia, ofrecemos soluciones integrales de limpieza para comunidades de vecinos, oficinas, restaurantes, locales comerciales y hogares en toda la Comunidad de Madrid.
+
+      Nuestros servicios incluyen:
+      - Limpieza de comunidades y zonas comunes
+      - Limpieza de oficinas y espacios de trabajo
+      - Limpieza de cristales en altura
+      - Limpieza de restaurantes y locales comerciales
+      - Limpieza de viviendas particulares
+
+      **Trabajamos en todos los distritos de Madrid** con personal cualificado y productos de primera calidad. ¡Solicite presupuesto sin compromiso!
+
+      Nuestros trabajos cuentan con **la garantía y el aval del saber hacer acumulado en 9 años de experiencia en el sector de la limpieza profesional en Madrid.** Desde nuestros orígenes, nos hemos caracterizado por ofrecer un alto nivel de calidad en todos nuestros trabajos.
     actions:
-      - label: Contactanos
-        altText: ''
+      - label: '📞 Llamar Ahora'
+        altText: 'Llamar a KatasCristal Madrid'
+        url: 'tel:+34611311905'
+        showIcon: false
+        icon: phone
+        iconPosition: left
+        style: primary
+        elementId: 'llamar-ahora-header'
+        type: Button
+      - label: '💬 WhatsApp'
+        altText: 'Contactar por WhatsApp'
         url: 'https://wa.me/34611311905'
         showIcon: false
-        icon: arrowRight
-        iconPosition: right
+        icon: whatsapp
+        iconPosition: left
         style: secondary
-        elementId: ''
+        elementId: 'whatsapp-header'
+        type: Button
+      - label: '✉️ Presupuesto Gratis'
+        altText: 'Solicitar presupuesto de limpieza en Madrid'
+        url: '#contacto'
+        showIcon: false
+        icon: envelope
+        iconPosition: left
+        style: secondary
+        elementId: 'presupuesto-header'
         type: Button
     media:
       url: /images/vangie-01.jpeg
@@ -111,7 +134,7 @@ sections:
       disposición. Nuestros servicios son totalmente flexibles y adaptados a
       cada cliente.
     actions:
-      - label: Contactanos
+      - label: ✉️ Presupuesto Gratis
         url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
@@ -155,7 +178,7 @@ sections:
       trámites de contratos, convenios y altas en seguridad social también
       podemos hacerlo. KatasCristal lo encarga todo.
     actions:
-      - label: Contactanos
+      - label: ✉️ Presupuesto Gratis
         url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
@@ -203,7 +226,7 @@ sections:
       las herramientas de limpieza necesarias si así lo deseas.
     actions:
       - type: Button
-        label: Contactanos
+        label: ✉️ Presupuesto Gratis
         url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
@@ -239,7 +262,7 @@ sections:
       puedes contar con nosotros.
     actions:
       - type: Button
-        label: Contactanos
+        label: ✉️ Presupuesto Gratis
         url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
@@ -316,7 +339,7 @@ sections:
       mereces.
     actions:
       - type: Button
-        label: Contactanos
+        label: ✉️ Presupuesto Gratis
         url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
@@ -357,7 +380,7 @@ sections:
       todas las necesidades de nuestras comunidades.
     actions:
       - type: Button
-        label: Contactanos
+        label: ✉️ Presupuesto Gratis
         url: 'https://wa.me/34611311905'
         icon: arrowRight
         iconPosition: right
@@ -419,16 +442,83 @@ sections:
     elementId: ''
     variant: two-col-grid
 seo:
-  metaTitle: Home - KatasCristal
+  metaTitle: 'Limpieza Profesional en Madrid | KatasCristal - Especialistas en Limpieza'
   metaDescription: >-
-    Sitio oficila de KatasCristal – Estamos especializados en trabajos de
-    limpieza de oficinas, restaurantes, locales, hogar cristales, locales, comunidades, edificios.
+    KatasCristal - Empresa líder en servicios de limpieza profesional en Madrid. Especialistas en limpieza de oficinas, comunidades, restaurantes y hogares. Presupuesto sin compromiso. ¡Llámanos!
   socialImage: /images/vangie-01.jpeg
   type: Seo
-  addTitleSuffix: false
+  addTitleSuffix: true
   metaTags:
     - type: MetaTag
       property: 'og:url'
       content: 'https://katascristal.com/'
+    - type: MetaTag
+      name: 'keywords'
+      content: 'limpieza madrid, empresa limpieza madrid, limpieza oficinas madrid, limpieza comunidades madrid, limpieza restaurantes madrid, limpieza profesional madrid, limpieza hogar madrid, limpieza cristales madrid, limpieza comunidades vecinos madrid, limpieza comunidades de propietarios madrid'
+    - type: MetaTag
+      name: 'author'
+      content: 'KatasCristal'
+    - type: MetaTag
+      name: 'robots'
+      content: 'index, follow'
+    - type: MetaTag
+      property: 'og:type'
+      content: 'website'
+    - type: MetaTag
+      property: 'og:locale'
+      content: 'es_ES'
+    - type: MetaTag
+      property: 'og:site_name'
+      content: 'KatasCristal - Limpieza Profesional en Madrid'
+
+# Structured Data for Local Business
+jsonLd: |
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "KatasCristal",
+    "image": "https://katascristal.com/images/logo.png",
+    "telephone": "+34 611 31 19 05",
+    "email": "info@katascristal.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle Ejemplo, 123",
+      "addressLocality": "Madrid",
+      "postalCode": "28001",
+      "addressCountry": "ES"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "14:00"
+      }
+    ],
+    "priceRange": "€€",
+    "url": "https://katascristal.com"
+  }
+
 type: PageLayout
 ---
+
+<!-- Hidden SEO Text for Additional Keywords -->
+<div class="seo-text" style="position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden;">
+  <h1>KatasCristal - Empresa de Limpieza Profesional en Madrid</h1>
+  <h2>Servicios de Limpieza en Madrid Centro y Provincia</h2>
+  <p>Empresa de limpieza en Madrid con amplia experiencia en el sector. Ofrecemos servicios profesionales de limpieza para comunidades de vecinos, oficinas, restaurantes, clínicas y hogares en toda la Comunidad de Madrid.</p>
+  <h3>Zonas de servicio en Madrid:</h3>
+  <p>Centro, Chamberí, Salamanca, Chamartín, Tetuán, Moncloa, Retiro, Arganzuela, Usera, Carabanchel, Latina, Puente de Vallecas, Moratalaz, Ciudad Lineal, Hortaleza, Villaverde, Villa de Vallecas, Vicálvaro, San Blas, Barajas, Fuencarral-El Pardo.</p>
+</div>

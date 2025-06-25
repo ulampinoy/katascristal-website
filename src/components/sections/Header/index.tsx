@@ -259,7 +259,9 @@ function ListOfLinks(props) {
     return (
         <>
             {links.map((link, index) => {
-                if (link.__metadata.modelName === 'SubNav') {
+                const modelName = link?.__metadata?.modelName;
+                
+                if (modelName === 'SubNav') {
                     return (
                         <LinkWithSubnav
                             key={index}
@@ -274,13 +276,13 @@ function ListOfLinks(props) {
                         <li
                             key={index}
                             className={classNames(inMobileMenu ? 'border-t' : 'py-2', {
-                                'py-4': inMobileMenu && link.__metadata.modelName === 'Button'
+                                'py-4': inMobileMenu && modelName === 'Button'
                             })}
                         >
                             <Action
                                 {...link}
                                 className={classNames('whitespace-nowrap', inMobileMenu ? 'w-full' : 'text-sm', {
-                                    'justify-start py-3': inMobileMenu && link.__metadata.modelName === 'Link'
+                                    'justify-start py-3': inMobileMenu && modelName === 'Link'
                                 })}
                                 {...(enableAnnotations && { 'data-sb-field-path': `.${index}` })}
                             />

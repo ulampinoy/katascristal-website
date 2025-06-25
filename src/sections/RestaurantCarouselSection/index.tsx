@@ -20,6 +20,11 @@ type RestaurantCarouselSectionProps = {
         label: string;
         url: string;
         style: string;
+        altText?: string;
+        icon?: string | React.ReactNode;
+        showIcon?: boolean;
+        iconPosition?: 'left' | 'right';
+        elementId?: string;
     }>;
     media?: Array<{
         url: string;
@@ -92,20 +97,41 @@ export default function RestaurantCarouselSection(props: RestaurantCarouselSecti
                         {text && (
                             <div className="prose prose-lg text-gray-600 mb-8" dangerouslySetInnerHTML={{ __html: text }} />
                         )}
-                        <div className="flex flex-wrap">
-                            {actions?.map((action, index) => (
-                                <a
-                                    key={index}
-                                    href={action.url}
-                                    className={`inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md ${
-                                        action.style === 'primary' 
-                                            ? 'text-white bg-primary-600 hover:bg-primary-700' 
-                                            : 'text-primary-700 bg-white hover:bg-gray-50 border-gray-300'
-                                    } mr-4 mb-4`}
-                                >
-                                    {action.label}
-                                </a>
-                            ))}
+                        <div className="flex flex-wrap gap-4 mt-6">
+                            {actions?.map((action, actionIndex) => {
+                                const isPrimary = action.style === 'primary';
+                                const isWhatsApp = action.label.includes('WhatsApp');
+                                const isPhone = action.label.includes('Llamar');
+                                const isEmail = action.label.includes('Presupuesto');
+                                
+                                return (
+                                    <a
+                                        key={actionIndex}
+                                        href={action.url}
+                                        className={classNames(
+                                            'inline-flex items-center px-6 py-3 text-base font-medium rounded-md transition-colors duration-200',
+                                            'focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500',
+                                            {
+                                                'text-white bg-primary-600 hover:bg-primary-700': isPrimary,
+                                                'text-gray-700 bg-white hover:bg-gray-50 border border-gray-300': !isPrimary,
+                                                'bg-[#25D366] hover:bg-[#128C7E] text-white': isWhatsApp,
+                                                'bg-green-600 hover:bg-green-700 text-white': isPhone,
+                                                'bg-blue-600 hover:bg-blue-700 text-white': isEmail
+                                            }
+                                        )}
+                                        target={action.url.startsWith('http') ? '_blank' : undefined}
+                                        rel={action.url.startsWith('http') ? 'noopener noreferrer' : undefined}
+                                        aria-label={action.altText || action.label}
+                                    >
+                                        {action.icon && (
+                                            <span className="mr-2" aria-hidden="true">
+                                                {action.icon}
+                                            </span>
+                                        )}
+                                        {action.label}
+                                    </a>
+                                );
+                            })}
                         </div>
                     </div>
                     <div className="w-full lg:w-[57.5%] flex-shrink-0">

@@ -97,7 +97,7 @@ export default function ContactForm({ className, enableAnnotations }: ContactFor
     };
 
     return (
-        <div className={classNames('contact-form', className)} data-sb-object-id={enableAnnotations ? 'contact-form' : undefined}>
+        <div id="contacto" className={classNames('contact-form', className)} data-sb-object-id={enableAnnotations ? 'contact-form' : undefined} data-sb-field-path=".elementId#@id">
             <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">Contáctanos</h3>
                 <p className="text-gray-600">¿En qué podemos ayudarte hoy?</p>
