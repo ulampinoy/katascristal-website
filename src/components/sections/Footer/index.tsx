@@ -28,19 +28,16 @@ export default function Footer(props) {
                 'sb-component-footer',
                 colors,
                 styles?.self?.margin ? mapStyles({ padding: styles?.self?.margin }) : undefined,
-                styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : 'px-4 py-28'
+                styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : 'px-4 py-16'
             )}
             {...(enableAnnotations && { 'data-sb-object-id': props?.__metadata?.id })}
         >
-            <div className="mx-auto max-w-4xl px-4 sm:px-6">
+            <div className="px-4 mx-auto max-w-4xl sm:px-6">
                 {/* Contact Form - Full width */}
                 <div className="mb-16">
-                    <ContactForm 
-                        className="bg-white p-8 rounded-lg shadow-xl w-full border border-gray-200" 
-                        enableAnnotations={enableAnnotations} 
-                    />
+                    <ContactForm className="p-8 w-full bg-white rounded-lg border border-gray-200 shadow-xl" enableAnnotations={enableAnnotations} />
                 </div>
-                
+
                 {/* Company Info and Social Links */}
                 <div className="space-y-10 text-gray-100">
                     {(logo?.url || title || text) && (
@@ -48,17 +45,18 @@ export default function Footer(props) {
                             {(logo?.url || title) && (
                                 <Link href="/" className="flex flex-col items-center group">
                                     {logo && (
-                                        <div className="mb-4 p-2 bg-white bg-opacity-10 rounded-lg">
-                                            <ImageBlock 
-                                                {...logo} 
-                                                className="inline-block w-auto h-10 md:h-12 brightness-0 invert" 
-                                                {...(enableAnnotations && { 'data-sb-field-path': 'logo' })} 
+                                        <div className="p-2 mb-4 bg-white bg-opacity-10 rounded-lg">
+                                            <ImageBlock
+                                                {...logo}
+                                                className="inline-block w-auto h-10 brightness-0 invert md:h-12"
+                                                {...(enableAnnotations && { 'data-sb-field-path': 'logo' })}
                                             />
                                         </div>
                                     )}
                                     {title && (
-                                        <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 group-hover:text-primary-300 transition-colors" 
-                                           {...(enableAnnotations && { 'data-sb-field-path': 'title' })}
+                                        <h2
+                                            className="mb-4 text-2xl font-bold text-white transition-colors md:text-3xl group-hover:text-primary-300"
+                                            {...(enableAnnotations && { 'data-sb-field-path': 'title' })}
                                         >
                                             {title}
                                         </h2>
@@ -66,23 +64,28 @@ export default function Footer(props) {
                                 </Link>
                             )}
                             {text && (
-                                <div className="space-y-6 max-w-2xl mx-auto">
+                                <div className="mx-auto space-y-6 max-w-2xl">
                                     <Markdown
                                         options={{ forceBlock: true, forceWrapper: true }}
-                                        className={classNames('sb-markdown', 'text-base md:text-lg leading-relaxed text-gray-200', { 'mt-2': title || logo?.url })}
+                                        className={classNames('sb-markdown', 'text-base md:text-lg leading-relaxed text-gray-200', {
+                                            'mt-2': title || logo?.url
+                                        })}
                                         {...(enableAnnotations && { 'data-sb-field-path': 'text' })}
                                     >
                                         {text}
                                     </Markdown>
                                     {socialLinks.length > 0 && (
                                         <div className="mt-10">
-                                            <ul className="flex flex-wrap justify-center items-center gap-8" {...(enableAnnotations && { 'data-sb-field-path': 'socialLinks' })}>
+                                            <ul
+                                                className="flex flex-wrap gap-8 justify-center items-center"
+                                                {...(enableAnnotations && { 'data-sb-field-path': 'socialLinks' })}
+                                            >
                                                 {socialLinks.map((link, index) => (
                                                     <li key={index}>
-                                                        <Social 
-                                                            {...link} 
-                                                            className="text-3xl text-white hover:text-primary-300 transition-colors"
-                                                            {...(enableAnnotations && { 'data-sb-field-path': `.${index}` })} 
+                                                        <Social
+                                                            {...link}
+                                                            className="text-3xl text-white transition-colors hover:text-primary-300"
+                                                            {...(enableAnnotations && { 'data-sb-field-path': `.${index}` })}
                                                         />
                                                     </li>
                                                 ))}
@@ -93,33 +96,33 @@ export default function Footer(props) {
                             )}
                         </div>
                     )}
-                    
+
                     {/* Navigation Links */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-10 border-t border-gray-700">
+                    <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
                         {primaryLinks && (
-                            <FooterLinksGroup 
-                                {...primaryLinks} 
+                            <FooterLinksGroup
+                                {...primaryLinks}
                                 className="text-gray-200"
                                 linkClassName="text-gray-300 hover:text-white transition-colors"
-                                {...(enableAnnotations && { 'data-sb-field-path': 'primaryLinks' })} 
+                                {...(enableAnnotations && { 'data-sb-field-path': 'primaryLinks' })}
                             />
                         )}
                         {secondaryLinks && (
-                            <FooterLinksGroup 
-                                {...secondaryLinks} 
+                            <FooterLinksGroup
+                                {...secondaryLinks}
                                 className="text-gray-200"
                                 linkClassName="text-gray-300 hover:text-white transition-colors"
-                                {...(enableAnnotations && { 'data-sb-field-path': 'secondaryLinks' })} 
+                                {...(enableAnnotations && { 'data-sb-field-path': 'secondaryLinks' })}
                             />
                         )}
                     </div>
                 </div>
                 {(copyrightText || legalLinks.length > 0) && (
-                    <div className="sb-footer-bottom border-t pt-8 mt-16 flex flex-col sm:flex-row sm:flex-wrap sm:justify-between">
+                    <div className="flex flex-col pt-8 mt-16 border-t sb-footer-bottom sm:flex-row sm:flex-wrap sm:justify-between">
                         {legalLinks.length > 0 && (
                             <ul className="flex flex-wrap mb-3" {...(enableAnnotations && { 'data-sb-field-path': 'legalLinks' })}>
                                 {legalLinks.map((link, index) => (
-                                    <li key={index} className="mb-1 mr-6 last:mr-0">
+                                    <li key={index} className="mr-6 mb-1 last:mr-0">
                                         <Action {...link} className="text-sm" {...(enableAnnotations && { 'data-sb-field-path': `.${index}` })} />
                                     </li>
                                 ))}
@@ -150,7 +153,7 @@ function FooterLinksGroup(props) {
     return (
         <div className="pb-8" data-sb-field-path={fieldPath}>
             {title && (
-                <h2 className="uppercase text-base tracking-wide" {...(fieldPath && { 'data-sb-field-path': '.title' })}>
+                <h2 className="text-base tracking-wide uppercase" {...(fieldPath && { 'data-sb-field-path': '.title' })}>
                     {title}
                 </h2>
             )}

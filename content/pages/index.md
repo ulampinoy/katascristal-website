@@ -457,9 +457,9 @@ sections:
       self:
         padding:
           - pt-16
-          - pl-8
+          - pl-4
           - pb-8
-          - pr-8
+          - pr-4
         justifyContent: flex-start
       subtitle:
         textAlign: center
