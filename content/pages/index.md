@@ -430,12 +430,19 @@ sections:
     styles:
       self:
         padding:
+<<<<<<< HEAD
           - pt-12
           - pb-12
           - pl-4
           - pr-4
         borderRadius: medium
         textAlign: left
+=======
+          - pt-16
+          - pl-4
+          - pb-8
+          - pr-4
+>>>>>>> fde3a7e (add: sparkle favicon)
         justifyContent: flex-start
       subtitle:
         textAlign: center
