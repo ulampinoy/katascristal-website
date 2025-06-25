@@ -266,7 +266,6 @@ sections:
           styles:
             self:
               borderRadius: medium
-        actions: []
         colors: bg-light-fg-dark
         styles:
           self:
@@ -279,7 +278,6 @@ sections:
             borderRadius: none
             flexDirection: col
             justifyContent: center
-    actions: []
     elementId: ''
     variant: big-list
     colors: bg-light-fg-dark
@@ -384,85 +382,42 @@ sections:
           - pl-3
           - pb-3
           - pr-3
-  - type: GenericSection
-    title:
-      type: TitleBlock
-      text: Restaurantes
-      color: text-dark
-    subtitle: KatasCristal ofrece un servicio de limpieza general de restaurantes
+  - type: RestaurantCarouselSection
+    title: Nuestros Restaurantes
+    subtitle: Descubre nuestros espacios únicos
     text: >
-      Servicio de limpieza general de restaurantes (salones, cocinas, campanas,
-      terrazas).
-
-      Mensual, trimestral, o cada tal x tiempo...
+      Explora nuestros restaurantes y descubre una experiencia gastronómica única.
+      Ofrecemos servicio de limpieza general para todo tipo de establecimientos.
     actions:
       - type: Button
-        label: Contactanos
-        url: 'https://wa.me/34611311905'
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
+        label: Reserva Ahora
+        url: '#contacto'
+        style: primary
     media:
-      type: ImageBlock
-      url: /images/ogrelo-01.jpeg
-      altText: Fun feature preview
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-  - type: FeaturedItemsSection
-    items:
-      - type: FeaturedItem
-        title: ''
-        subtitle: ''
-        image:
-          type: ImageBlock
-          url: /images/ogrelo-02.jpeg
-          altText: Faux Fur Throw
-          elementId: ''
-          styles:
-            self:
-              borderRadius: medium
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-0
-              - pl-0
-              - pb-0
-              - pr-0
-            textAlign: left
-            borderRadius: none
-            flexDirection: col
-            justifyContent: center
-      - type: FeaturedItem
-        title: ''
-        subtitle: ''
-        image:
-          type: ImageBlock
-          url: /images/ogrelo-03.jpeg
-          altText: Chunky Cotton Knit Throw
-          elementId: ''
-          styles:
-            self:
-              borderRadius: medium
-        actions: []
-        colors: bg-light-fg-dark
-    actions: []
-    elementId: ''
-    variant: two-col-grid
+      - type: ImageBlock
+        url: /images/ogrelo-01.jpeg
+        altText: Restaurante Ogrelo - Vista interior
+      - type: ImageBlock
+        url: /images/ogrelo-02.jpeg
+        altText: Restaurante Ogrelo - Vista general
+      - type: ImageBlock
+        url: /images/ogrelo-03.jpeg
+        altText: Restaurante Ogrelo - Barra principal
     colors: bg-light-fg-dark
     styles:
       self:
         padding:
-          - pt-16
+          - pt-12
+          - pb-12
           - pl-4
-          - pb-8
           - pr-4
+        borderRadius: medium
+        textAlign: left
         justifyContent: flex-start
       subtitle:
         textAlign: center
+    elementId: ''
+    variant: two-col-grid
 seo:
   metaTitle: Home - KatasCristal
   metaDescription: >-
