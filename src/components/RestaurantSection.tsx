@@ -14,10 +14,10 @@ export default function RestaurantSection() {
           style: 'primary'
         }
       ]}
-      media={{
+      media={[{
         url: '/images/ogrelo-01.jpeg',
         altText: 'Restaurante KatasCristal'
-      }}
+      }]}
     />
   );
 }
