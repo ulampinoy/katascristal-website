@@ -5,6 +5,7 @@ import classNames from 'classnames';
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 import { Social, Action, Link } from '../../atoms';
 import ImageBlock from '../../blocks/ImageBlock';
+import ContactForm from '../../atoms/ContactForm';
 
 export default function Footer(props) {
     const {
@@ -31,46 +32,87 @@ export default function Footer(props) {
             )}
             {...(enableAnnotations && { 'data-sb-object-id': props?.__metadata?.id })}
         >
-            <div className="mx-auto max-w-7xl">
-                <div className="grid sm:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div className="mx-auto max-w-4xl px-4 sm:px-6">
+                {/* Contact Form - Full width */}
+                <div className="mb-16">
+                    <ContactForm 
+                        className="bg-white p-8 rounded-lg shadow-xl w-full border border-gray-200" 
+                        enableAnnotations={enableAnnotations} 
+                    />
+                </div>
+                
+                {/* Company Info and Social Links */}
+                <div className="space-y-10 text-gray-100">
                     {(logo?.url || title || text) && (
-                        <div className="pb-8 sm:col-span-3 lg:col-auto">
+                        <div className="text-center">
                             {(logo?.url || title) && (
-                                <Link href="/" className="flex flex-col items-start">
+                                <Link href="/" className="flex flex-col items-center group">
                                     {logo && (
-                                        <ImageBlock {...logo} className="inline-block w-auto" {...(enableAnnotations && { 'data-sb-field-path': 'logo' })} />
+                                        <div className="mb-4 p-2 bg-white bg-opacity-10 rounded-lg">
+                                            <ImageBlock 
+                                                {...logo} 
+                                                className="inline-block w-auto h-10 md:h-12 brightness-0 invert" 
+                                                {...(enableAnnotations && { 'data-sb-field-path': 'logo' })} 
+                                            />
+                                        </div>
                                     )}
                                     {title && (
-                                        <div className="h4" {...(enableAnnotations && { 'data-sb-field-path': 'title' })}>
+                                        <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 group-hover:text-primary-300 transition-colors" 
+                                           {...(enableAnnotations && { 'data-sb-field-path': 'title' })}
+                                        >
                                             {title}
-                                        </div>
+                                        </h2>
                                     )}
                                 </Link>
                             )}
                             {text && (
-                                <Markdown
-                                    options={{ forceBlock: true, forceWrapper: true }}
-                                    className={classNames('sb-markdown', 'text-sm', { 'mt-4': title || logo?.url })}
-                                    {...(enableAnnotations && { 'data-sb-field-path': 'text' })}
-                                >
-                                    {text}
-                                </Markdown>
+                                <div className="space-y-6 max-w-2xl mx-auto">
+                                    <Markdown
+                                        options={{ forceBlock: true, forceWrapper: true }}
+                                        className={classNames('sb-markdown', 'text-base md:text-lg leading-relaxed text-gray-200', { 'mt-2': title || logo?.url })}
+                                        {...(enableAnnotations && { 'data-sb-field-path': 'text' })}
+                                    >
+                                        {text}
+                                    </Markdown>
+                                    {socialLinks.length > 0 && (
+                                        <div className="mt-10">
+                                            <ul className="flex flex-wrap justify-center items-center gap-8" {...(enableAnnotations && { 'data-sb-field-path': 'socialLinks' })}>
+                                                {socialLinks.map((link, index) => (
+                                                    <li key={index}>
+                                                        <Social 
+                                                            {...link} 
+                                                            className="text-3xl text-white hover:text-primary-300 transition-colors"
+                                                            {...(enableAnnotations && { 'data-sb-field-path': `.${index}` })} 
+                                                        />
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+                                </div>
                             )}
                         </div>
                     )}
-                    {primaryLinks && <FooterLinksGroup {...primaryLinks} {...(enableAnnotations && { 'data-sb-field-path': 'primaryLinks' })} />}
-                    {secondaryLinks && <FooterLinksGroup {...secondaryLinks} {...(enableAnnotations && { 'data-sb-field-path': 'secondaryLinks' })} />}
-                    {socialLinks.length > 0 && (
-                        <div className="pb-6">
-                            <ul className="flex flex-wrap items-center" {...(enableAnnotations && { 'data-sb-field-path': 'socialLinks' })}>
-                                {socialLinks.map((link, index) => (
-                                    <li key={index} className="text-2xl mb-2 mr-8 lg:mr-12 last:mr-0">
-                                        <Social {...link} {...(enableAnnotations && { 'data-sb-field-path': `.${index}` })} />
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    )}
+                    
+                    {/* Navigation Links */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-10 border-t border-gray-700">
+                        {primaryLinks && (
+                            <FooterLinksGroup 
+                                {...primaryLinks} 
+                                className="text-gray-200"
+                                linkClassName="text-gray-300 hover:text-white transition-colors"
+                                {...(enableAnnotations && { 'data-sb-field-path': 'primaryLinks' })} 
+                            />
+                        )}
+                        {secondaryLinks && (
+                            <FooterLinksGroup 
+                                {...secondaryLinks} 
+                                className="text-gray-200"
+                                linkClassName="text-gray-300 hover:text-white transition-colors"
+                                {...(enableAnnotations && { 'data-sb-field-path': 'secondaryLinks' })} 
+                            />
+                        )}
+                    </div>
                 </div>
                 {(copyrightText || legalLinks.length > 0) && (
                     <div className="sb-footer-bottom border-t pt-8 mt-16 flex flex-col sm:flex-row sm:flex-wrap sm:justify-between">

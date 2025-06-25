@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/img"
+public_folder: "/img"
+
+collections:
+  - name: "form_submissions"
+    label: "Form Submissions"
+    folder: "content/submissions"
+    create: true
+    fields:
+      - { name: "title", label: "Title", widget: "hidden", default: "{{slug}}" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "name", label: "Name", widget: "string" }
+      - { name: "email", label: "Email", widget: "string" }
+      - { name: "phone", label: "Phone", widget: "string" }
+      - { name: "services", label: "Services", widget: "list" }
+      - { name: "specialRequests", label: "Special Requests", widget: "text" }
