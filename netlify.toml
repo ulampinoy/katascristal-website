@@ -8,8 +8,7 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-  [plugins.inputs]
-    enableNextJsLink = true
+  # No additional inputs needed for the latest version
 
 [[redirects]]
   from = "/contact"
