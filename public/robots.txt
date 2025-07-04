@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Sitemap: https://katascristal.com/sitemap.xml
+
+# Disallow admin and other non-public pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow all other pages
+Allow: /*
+
+# Crawl-delay: 10  # Uncomment if needed to reduce server load
+
+# Sitemap location
+Sitemap: https://katascristal.com/sitemap.xml

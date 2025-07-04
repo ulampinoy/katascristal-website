@@ -464,16 +464,41 @@ sections:
       subtitle:
         textAlign: center
 seo:
-  metaTitle: Home - KatasCristal
+  metaTitle: 'Limpieza Profesional en Madrid | KatasCristal - Expertos en Limpieza desde 2015'
   metaDescription: >-
-    Sitio oficila de KatasCristal – Estamos especializados en trabajos de
-    limpieza de oficinas, restaurantes, locales, hogar cristales, locales, comunidades, edificios.
+    KatasCristal - Empresa líder en servicios de limpieza profesional en Madrid desde 2015. 
+    Especialistas en limpieza de oficinas, comunidades, restaurantes, cristales y hogares. 
+    Presupuesto sin compromiso. ¡Llámanos al +34 611 311 905!
   socialImage: /images/vangie-01.jpeg
   type: Seo
-  addTitleSuffix: false
+  addTitleSuffix: true
   metaTags:
+    - type: MetaTag
+      property: 'og:type'
+      content: 'website'
     - type: MetaTag
       property: 'og:url'
       content: 'https://katascristal.com/'
+    - type: MetaTag
+      property: 'og:site_name'
+      content: 'KatasCristal - Limpieza Profesional en Madrid'
+    - type: MetaTag
+      name: 'twitter:card'
+      content: 'summary_large_image'
+    - type: MetaTag
+      name: 'twitter:title'
+      content: 'Limpieza Profesional en Madrid | KatasCristal - Expertos desde 2015'
+    - type: MetaTag
+      name: 'twitter:description'
+      content: 'Servicios profesionales de limpieza para oficinas, comunidades, restaurantes y hogares en Madrid. Expertos en limpieza de cristales y mantenimiento.'
+    - type: MetaTag
+      name: 'keywords'
+      content: 'limpieza profesional madrid, limpieza de oficinas, limpieza de comunidades, limpieza de cristales, servicios de limpieza, empresa de limpieza, limpieza de restaurantes, limpieza de locales, katascristal, limpieza a domicilio madrid'
+    - type: MetaTag
+      name: 'author'
+      content: 'KatasCristal'
+    - type: MetaTag
+      name: 'robots'
+      content: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
 type: PageLayout
 ---
