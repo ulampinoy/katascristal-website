@@ -194,7 +194,7 @@ sections:
       Si deseas una limpieza a fondo de la cocina, si prefieres los baños o si
       te gustaría una limpieza a fondo del hogar si te mudas, cuentas con
       propiedades en alquiler, deseas realizar una limpieza de fin de obra o una
-      limpieza de pisos vacíos, Interdomicilio tiene tu solución.
+      limpieza de pisos vacíos, KatasCristal tiene tu solución.
 
 
       ¡Llámanos ya! Cuéntanos cuáles son tus objetivos y elaboraremos un
